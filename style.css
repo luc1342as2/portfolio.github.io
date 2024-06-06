@@ -9,13 +9,34 @@
 }
 
 body {
-  
     font-family: 'Courier New', Courier, monospace;
     font-weight: 400;
 }
 
+.marquee {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: lightblue;
+  width: 100%;
+  z-index: 1000;
+  text-align: center;
+}
+
 html {
     scroll-behavior: smooth;
+}
+
+h4 {
+  color: green;
+  position:relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  margin: 0;
+  font-size: 50px;
 }
 
 p {
@@ -397,7 +418,6 @@ section {
 
   /* CERTIFICATES SECTION */
   #certificates {
-    background-color: #f5f5f5; 
     text-align: center; 
     margin-bottom: 30px;
     padding: 30px; 
@@ -437,7 +457,6 @@ section {
 
 /* HANDS-ON SECTION */
 #hands-on {
-  background-color: #f5f5f5; 
   text-align: center; 
   margin-bottom: 30px;
   padding: 30px; 
@@ -476,7 +495,6 @@ section {
 
 /* CYBER-SECURITY SECTION */
 #cyber-security {
-  background-color: #f5f5f5; 
   text-align: center; 
   margin-bottom: 30px;
   padding: 30px; 
@@ -514,7 +532,6 @@ section {
 
   /* CONTACT SECTION */
   #contact {
-    background-color: white; 
     padding: 40px;
     text-align: center; 
     margin-top: 30px; /*Added*/
@@ -558,8 +575,7 @@ section {
     text-decoration: underline;
   }
 
-  /*Added*/
   footer {
-    margin-top: 30px;
+    margin-top: 50px;
     color:aliceblue;
   }

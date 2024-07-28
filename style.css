@@ -36,7 +36,7 @@ h4 {
   transform: translate(-50%, -50%);
   text-align: center;
   margin: 0;
-  font-size: 50px;
+  font-size: 35px;
 }
 
 p {
@@ -223,6 +223,7 @@ section {
     text-align: center;
     font-size: medium;
     font-family: 'Times New Roman', Times, serif;
+    color: orangered;
   }
   
   .section__text__p2 {

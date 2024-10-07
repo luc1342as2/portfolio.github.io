@@ -42,7 +42,7 @@ h4 {
 p {
     color: rgb(red, green, blue);
     font-family: 'Times New Roman', Times, serif;
-    font-size: large;
+    font-size: medium;
 }
 
 a, .btn {
@@ -215,7 +215,8 @@ section {
   }
   
   .section__text p {
-    font-weight: 750;
+    font-weight: 600;
+    
   }
   
   .section__text__p1 {
@@ -302,11 +303,7 @@ section {
   #about {
     position: relative;
   }
-
-  .about-title {
-      position: center;
-      font-weight: 500px;
-  }    
+  
   .about-containers {
     gap: 2rem;
     margin-bottom: 2rem;

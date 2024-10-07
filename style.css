@@ -231,7 +231,7 @@ section {
   }
   
   .title {
-    font-size: 2.5rem;
+    font-size: 3rem;
     text-align: center;
   }
   
@@ -302,7 +302,11 @@ section {
   #about {
     position: relative;
   }
-  
+
+  .about-title {
+      position: center;
+      font-weight: 500px;
+  }    
   .about-containers {
     gap: 2rem;
     margin-bottom: 2rem;
